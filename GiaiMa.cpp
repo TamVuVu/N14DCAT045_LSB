@@ -54,7 +54,6 @@ int main(){
 		header++;
 		if(count_zero==8) break;
 	}
-	cout<<bin_string;
 	cout << BinToText(bin_string);
 	delete[] buffer;
 	inbmp.close();
